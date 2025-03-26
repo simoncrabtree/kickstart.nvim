@@ -31,9 +31,8 @@ return {
     opts_extend = { 'sources.default' },
   },
   {
+    -- Comment code - use gcc gbc etc...
     'numToStr/Comment.nvim',
-    opts = {
-      -- add any options here
-    },
+    opts = {},
   },
 }
